@@ -34,16 +34,19 @@ def get_amount_to_charge(amount_to_make):
     amount_to_charge = (amount_to_make + cc_fee) / \
         ((1 + tax_rate_per) * (1 - combined_per/100) - tax_rate_per)
 
-    print(f'Amount to charge: {locale.currency(
-        amount_to_charge, grouping=True)}')
+    formatted_amount = locale.currency(amount_to_charge, grouping=True)
+
+    print(f'Amount to charge: {formatted_amount}')
 
 
 def get_amount_made(amount_charged):
     taxes = amount_charged * tax_rate_per
     amount_made = (amount_charged + taxes) * \
         (1 - (bil_per + cc_per + tax_per)/100) - cc_fee - taxes
+    
+    formatted_amount = locale.currency(amount_made, grouping=True)
 
-    print(f'Amount made: {locale.currency(amount_made, grouping=True)}')
+    print(f'Amount made: {formatted_amount}')
 
 
 def main():
