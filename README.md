@@ -1,5 +1,7 @@
 # stripe-fees
 
+![pypi version](https://github.com/Pavel-Sushko/stripe-fees/actions/workflows/python-publish.yml/badge.svg) ![python application](https://github.com/Pavel-Sushko/stripe-fees/actions/workflows/python-app.yml/badge.svg) ![dependency review](https://github.com/Pavel-Sushko/stripe-fees/actions/workflows/dependency-review.yml/badge.svg)
+
 stripe-fees is a Python package that calculates the fees associated with a Stripe transaction. It is designed to be simple and easy to use, with a minimalistic API.
 
 ## Installation
