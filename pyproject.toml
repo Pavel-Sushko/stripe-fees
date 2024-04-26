@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 packages = ["src/stripe_fees"]
 
 [project]
-name = "stripe-py"
+name = "stripe-fees"
 version = "0.0.1"
 authors = [{ name = "Pavel Sushko", email = "github@psushko.com" }]
 description = "Python utility for calculating Stripe fees"
