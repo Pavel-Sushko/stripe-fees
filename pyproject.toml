@@ -7,7 +7,7 @@ packages = ["src/stripe_fees"]
 
 [project]
 name = "stripe-fees"
-version = "0.0.1"
+version = "0.0.2"
 authors = [{ name = "Pavel Sushko", email = "github@psushko.com" }]
 description = "Python utility for calculating Stripe fees"
 readme = "README.md"

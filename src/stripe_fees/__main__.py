@@ -50,7 +50,7 @@ def get_amount_made(amount_charged):
 
 
 def main():
-    locale.setlocale(locale.LC_ALL, '')
+    locale.setlocale(locale.LC_ALL, 'en_CA.UTF-8')
 
     args = parse_arguments()
 
